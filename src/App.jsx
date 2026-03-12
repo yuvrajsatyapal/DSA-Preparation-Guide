@@ -388,6 +388,7 @@ const patterns = [
 ];
 
 export default function DSAPatterns() {
+  document.title = 'DSA Preparation Guide';
   const [selected, setSelected] = useState(null);
   const [search, setSearch] = useState("");
   const [activeCategory, setActiveCategory] = useState(null);
